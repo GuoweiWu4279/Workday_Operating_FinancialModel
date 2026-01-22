@@ -1,70 +1,71 @@
-# Workday Operating Model (2020–2024)
+# Workday 3-Statement Operating Model (2020–2024E)
 
-This project presents a driver-based operating model for Workday, Inc., built in Excel using historical financial statements and simplified forward assumptions.
+This project presents a dynamic, driver-based 3-statement operating model for Workday Inc., built in Excel using historical financial statements and forward-looking assumptions.
 
-The model focuses on understanding Workday’s revenue recognition, cost structure, deferred revenue dynamics, and operating cash flow, rather than precise treasury forecasting or valuation.
+The model upgrades simple historical trending to a logic-based forecast, focusing on **ARR (Annual Recurring Revenue) dynamics**, **Operating Leverage**, and **Cash Flow generation** under different scenarios.
 
 ---
 
 ## 📌 Model Objective
 
-- Analyze the quality of revenue growth and operating leverage
-- Understand how deferred revenue impacts reported revenue and cash flow
-- Evaluate whether operating cash flow is driven by profitability or accounting effects
-- Assess equity sustainability under a no-new-financing assumption
+- **Forecast Revenue Quality:** Utilizing an ARR Waterfall structure (Bookings & Churn) rather than simple growth rates.
+- **Analyze Operating Leverage:** Assess how R&D and S&M expenses scale relative to revenue under Bear, Base, and Bull scenarios.
+- **Cash Flow Divergence:** Evaluate the disconnect between GAAP Net Losses and strong Operating Cash Flow (driven by SBC and Deferred Revenue).
+- **Balance Sheet Health:** Project liquidity and capital structure sustainability without external financing.
 
 ---
 
-## Key Takeaways
+## 🔑 Key Takeaways
 
-- Revenue grows steadily (~15% CAGR), but operating losses persist through 2024
-- Cost structure remains heavily weighted toward Sales & Marketing and R&D
-- Deferred revenue continues to grow, but ~97% is recognized within 12 months, indicating predominantly annual contracts
-- Positive operating cash flow is largely driven by non-cash adjustments (SBC, deferred revenue)
-- Under a no-financing assumption, retained earnings continue to decline, highlighting reliance on future margin improvement or capital raises
-
----
-
-## Model Structure
-
-The Excel model includes the following tabs:
-
-- **Summary** – Key conclusions and interpretation
-- **Assumptions** – All major modeling drivers
-- **Revenue Build** – Deferred revenue roll-forward and revenue recognition
-- **Financial Statements** - Inclues Income Statement – Driver-based operating forecast,Cash Flow Statement – Simplified operating cash,flow, and Balance Sheet – Deferred revenue and equity roll-forward
+- **Revenue Growth:** Revenue grows at ~18% CAGR (from $4.3B to ~$7.1B), driven by strong subscription bookings and low churn assumptions.
+- **Profitability Profile:** While GAAP Operating Income (EBIT) remains negative due to high R&D and Stock-Based Compensation (SBC), the model shows potential for operating leverage in outer years.
+- **Cash Flow Strength:** Despite accounting losses, **Operating Cash Flow is highly positive** (growing to ~$1.7B+), largely driven by non-cash add-backs (SBC) and upfront deferred revenue collections.
+- **Liquidity:** Unlike typical loss-making firms, Workday accumulates significant cash reserves (~$5B by 2024) purely through operations, requiring no new debt or equity financing.
 
 ---
 
-## Key Assumptions
+## 🏗️ Model Structure
 
-- Revenue recognition pattern based on 2021 implied rate
-- Stable cost structure as a percentage of revenue
-- Zero effective tax rate during loss-making period (NOLs)
-- Deferred revenue contract duration consistent with historical mix
-- No assumed future financing, treasury activity, or FX impact
+The Excel model includes the following integrated tabs:
+
+- **Summary** – Executive dashboard with key charts and scenario outputs.
+- **Assumptions** – **Scenario Toggles (Bear/Base/Bull)** and driver-based inputs for margins and efficiency.
+- **Revenue Build** – **ARR Waterfall** modeling (Beginning ARR + New Bookings - Churn = Ending ARR).
+- **Financial Statements** – Fully linked 3-Statement view:
+  - *Income Statement:* Driver-based operating forecast.
+  - *Balance Sheet:* Linked PP&E, Working Capital, and Equity roll-forwards.
+  - *Cash Flow Statement:* Derived indirect method cash flow.
 
 ---
 
-## Model Scope & Limitations
+## ⚙️ Key Assumptions (Base Case)
+
+- **Revenue Model:** ARR-driven approach with ~20% New Bookings growth and ~5% Churn.
+- **Cost Structure:** Operating expenses modeled as % of Revenue, with varying efficiency gains per scenario.
+- **Taxation:** Zero effective tax rate assumed during loss-making period (utilizing NOLs).
+- **Working Capital:** DSO ~88 days; Deferred Revenue maintained at ~55% of ARR.
+- **Capex:** Set at ~5-8% of Revenue to sustain infrastructure growth.
+
+---
+
+## 🚫 Model Scope & Limitations
 
 This model intentionally excludes:
-- Marketable securities activity
-- Financing transactions and capital raises
-- FX impacts
-- Detailed working capital schedules
-- Valuation analysis (DCF or multiples)
+- Complex treasury and marketable securities activity.
+- Granular headcount planning (bottom-up).
+- M&A transactions or capital structure changes.
+- Valuation analysis (DCF or Trading Multiples).
 
-The model is designed as an **operating analysis tool**, not a full financial projection or valuation model.
+The model is designed as an **FP&A / Operating Analysis tool**, focusing on business drivers rather than valuation.
 
 ---
 
 ## 📂 Files
 
-- `Workday_Operating_Model.xlsx` – Main model file
+- `WDAY_Operating_Model.xlsm` – Main model file (Macro-enabled for scenario toggles)
 
 ---
 
 ## 👤 Author
 
-Built by Guowei Wu as part of a personal financial modeling and company analysis project.
+Built by **Guowei (Gary) Wu** as part of a personal financial modeling and SaaS company analysis project.
