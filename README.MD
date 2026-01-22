@@ -1,4 +1,4 @@
-# Workday 3-Statement Operating Model (2020–2024E)
+# Workday 3-Statement Operating Model (2020–2024)
 
 This project presents a dynamic, driver-based 3-statement operating model for Workday Inc., built in Excel using historical financial statements and forward-looking assumptions.
 
