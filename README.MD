@@ -6,7 +6,7 @@ The model upgrades simple historical trending to a logic-based forecast, focusin
 
 ---
 
-## 📌 Model Objective
+##  Model Objective
 
 - **Forecast Revenue Quality:** Utilizing an ARR Waterfall structure (Bookings & Churn) rather than simple growth rates.
 - **Analyze Operating Leverage:** Assess how R&D and S&M expenses scale relative to revenue under Bear, Base, and Bull scenarios.
@@ -15,7 +15,7 @@ The model upgrades simple historical trending to a logic-based forecast, focusin
 
 ---
 
-## 🔑 Key Takeaways
+##  Key Takeaways
 
 - **Revenue Growth:** Revenue grows at ~18% CAGR (from $4.3B to ~$7.1B), driven by strong subscription bookings and low churn assumptions.
 - **Profitability Profile:** While GAAP Operating Income (EBIT) remains negative due to high R&D and Stock-Based Compensation (SBC), the model shows potential for operating leverage in outer years.
@@ -24,7 +24,7 @@ The model upgrades simple historical trending to a logic-based forecast, focusin
 
 ---
 
-## 🏗️ Model Structure
+##  Model Structure
 
 The Excel model includes the following integrated tabs:
 
@@ -38,7 +38,7 @@ The Excel model includes the following integrated tabs:
 
 ---
 
-## ⚙️ Key Assumptions (Base Case)
+##  Key Assumptions (Base Case)
 
 - **Revenue Model:** ARR-driven approach with ~20% New Bookings growth and ~5% Churn.
 - **Cost Structure:** Operating expenses modeled as % of Revenue, with varying efficiency gains per scenario.
@@ -48,7 +48,7 @@ The Excel model includes the following integrated tabs:
 
 ---
 
-## 🚫 Model Scope & Limitations
+##  Model Scope & Limitations
 
 This model intentionally excludes:
 - Complex treasury and marketable securities activity.
@@ -60,12 +60,12 @@ The model is designed as an **FP&A / Operating Analysis tool**, focusing on busi
 
 ---
 
-## 📂 Files
+##  Files
 
 - `WDAY_Operating_Model.xlsm` – Main model file (Macro-enabled for scenario toggles)
 
 ---
 
-## 👤 Author
+##  Author
 
 Built by **Guowei (Gary) Wu** as part of a personal financial modeling and SaaS company analysis project.
